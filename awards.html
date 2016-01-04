@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Sushi Night End of 2015</title>
+		<title>Awards Night 2015</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -44,9 +44,9 @@
 					<section id="wrapper">
 						<header>
 							<div class="inner">
-								<h2>Sushi Night End of 2015</h2>
-								<p>SEC hosted their annual Sushi Night! There was tons of food and everyone had a great time! It was a great way to end the year off.</p><br>
-                <p>You can view the album below.</p>
+								<h2>Awards Night 2015</h2>
+								<p>SEC holds an end of the year Awards night for students and professors. There is food, games and a whole lot of CS humour.</p><br>
+                <p>You can view the part of the album for Awards Night 2015 below. To view the rest of the photos you can visit our <a href="https://www.facebook.com/media/set/?set=a.1569756569969686.1073741840.1473972586214752&type=3">Facebook page.</a></p>
 							</div>
 						</header>
 
@@ -69,21 +69,18 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-      <script>$(document).ready(function(){
-  var dir = "images/sushinight/";
-  var i = 1;
-  while(i<=28){
-    if(i != 2){
-    var filename = i+".jpg";
-    $("#photos").append("<img src='" + dir + filename +"'>");
-  }
-    i++;
-  }
+      <script>
+  			var dir = "images/awards/";
+  			var i = 1;
+  			while(i<=35){
+    			var filename = i+".jpg";
+    			$("#photos").append("<img src='" + dir + filename +"'>");
+    			i++;
+  			}
+  			$("img").click(function(){
+    		window.open(this.src);
+  		});
 
-  $("img").click(function(){
-    window.open(this.src);
-  });
-});</script>
-
+  	</script>
 	</body>
 </html>

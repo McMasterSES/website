@@ -136,6 +136,7 @@ h6 {
   .footerArea {
     position: fixed;
     bottom: 10px;
+    background: #464646;
   }
   .contentArea {
     display: none;

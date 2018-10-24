@@ -60,22 +60,6 @@ html {
   text-align: center;
   flex-basis: 30%;
 }
-.left {
-  margin: 0 0 0 10% ;
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2em;
-  color: white;
-}
-.right {
-  margin: 0 10% 0 0 ;
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .logo {
   max-width: 500px;
   width: 40%;
@@ -111,4 +95,49 @@ h5,
 h6 {
   text-transform: uppercase;
   margin: 0;
+}
+@media only screen and (max-width: 768px) {
+  #contentWrapper,
+  #pageWrapper,
+  .footerArea,
+  .contentArea,
+  .headerArea {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: initial;
+    background: none;
+    background-image: url("../../images/background/Kevin Patrick Robbins_06_07_2018 14_55_56.jpg");
+    background-attachment: fixed;
+  }
+  #contentWrapper {
+    max-height: none;
+    height: 100%;
+  }
+  .logo {
+    box-sizing: border-box;
+    padding: 10px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .logo img {
+    max-width: 100%;
+    width: auto;
+  }
+  .headerArea {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerArea {
+    position: fixed;
+    bottom: 10px;
+  }
+  .contentArea {
+    display: none;
+  }
 }

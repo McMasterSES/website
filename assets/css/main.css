@@ -15,6 +15,15 @@ html {
   background-size: cover;
   /* Resize the background image to cover the entire container */
 }
+
+.noPhone {
+  display: block;
+}
+
+.phone {
+  display: none;
+}
+
 #pageWrapper {
   height: 100vh;
   width: 100%;
@@ -113,6 +122,14 @@ h6 {
     padding-bottom: 10px;
     height: initial;
     background-attachment: fixed;
+  }
+
+  .noPhone {
+    display: none;
+  }
+
+  .phone {
+    display: block;
   }
   #contentWrapper {
     max-height: none;

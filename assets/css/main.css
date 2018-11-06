@@ -15,6 +15,15 @@ html {
   background-size: cover;
   /* Resize the background image to cover the entire container */
 }
+
+.noPhone {
+  display: block;
+}
+
+.phone {
+  display: none;
+}
+
 #pageWrapper {
   height: 100vh;
   width: 100%;
@@ -23,7 +32,7 @@ html {
   justify-content: center;
 }
 #contentWrapper {
-  background: rgba(17, 17, 17, 0.6);
+  background: rgba(17, 17, 17, 0.8);
   color: white;
   width: 100%;
   max-height: 800px;
@@ -113,6 +122,14 @@ h6 {
     padding-bottom: 10px;
     height: initial;
     background-attachment: fixed;
+  }
+
+  .noPhone {
+    display: none;
+  }
+
+  .phone {
+    display: block;
   }
   #contentWrapper {
     max-height: none;

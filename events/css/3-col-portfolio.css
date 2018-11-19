@@ -1,0 +1,63 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio (https://startbootstrap.com/template-overviews/3-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+
+.pp-nav {
+  background-color: #FFFFFF;
+  color: #7e003c !important;
+  border-bottom: 2px solid #7e003c;
+}
+
+.navbar-brand, .navbar-collapse, .navbar-toggler, .navbar-nav, .nav-link {
+  color: #7e003c !important;
+}
+
+.nav-item.active .nav-link {
+  border: 1px solid #7e003c;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+.pp-btn {
+  background: #7e003c !important;
+  color: white !important;
+  border-color: #3a001c !important;
+}
+
+.pp-btn-2 {
+  /*background: #dc1990 !important;*/
+  color: white !important;
+  border-color: #3a001c !important;
+}
+
+.pp-bg-secondary {
+  background-color: #7e003c;
+}
+
+h1 {
+  color: #7e003c !important;
+}
+
+.card-title a{
+  color: #7e003c
+}

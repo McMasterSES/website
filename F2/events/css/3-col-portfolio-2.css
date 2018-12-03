@@ -1,0 +1,127 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio (https://startbootstrap.com/template-overviews/3-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+    background-color: #464646;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.pagination {
+    margin-bottom: 30px;
+}
+
+.pp-nav {
+    background-color: #464646;
+    color: #f0436e !important;
+    border-bottom: 2px solid #f0436e;
+}
+
+.navbar-brand, .navbar-collapse, .navbar-toggler, .navbar-nav {
+    color: #f0436e !important;
+}
+
+
+.nav-link1 {
+    color: #668def !important;
+}
+
+.nav-link2 {
+    color: #53f261 !important;
+}
+
+.nav-link3 {
+    color: #9825fb !important;
+}
+
+.nav-link4 {
+    color: #FFB036 !important;
+}
+
+.nav-link5 {
+    color: #668def !important;
+}
+
+.nav-item.active .nav-link {
+    color: #f0436e !important;
+    border: 1px solid #f0436e;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.pp-btn {
+    background: #f0436e !important;
+    color: white !important;
+    border-color: #84253c !important;
+}
+
+.pp-btn-2 {
+    /*background: #dc1990 !important;*/
+    color: white !important;
+    border-color: #f0436e !important;
+}
+
+.pp-bg-secondary {
+    background-color: #f0436e;
+}
+
+h1 {
+    color: #f0436e !important;
+}
+
+.card1 {
+    border: 2px solid #668def !important;
+}
+
+.card1 .card-title a {
+    color: #668def;
+}
+
+.card2 {
+    border: 2px solid #53f261 !important;
+}
+
+.card2 .card-title a {
+    color: #53f261;
+}
+
+
+.card3 {
+    border: 2px solid #9825fb !important;
+}
+
+.card3 .card-title a {
+    color: #9825fb;
+}
+
+
+.card4 {
+    border: 2px solid #FFB036 !important;
+}
+
+.card4 .card-title a {
+    color: #FFB036;
+}
+
+
+.card5 {
+    border: 2px solid #f0436e !important;
+}
+
+.card5 .card-title a {
+    color: #f0436e;
+}
+

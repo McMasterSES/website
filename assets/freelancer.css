@@ -7,7 +7,7 @@
 body {
   width: 100%;
   height: 100%;
-  font-family: "Lato"
+  font-family: "Lato";
   color: black;
   background-color: #e9e9e9;
 }
@@ -134,7 +134,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #e9e9e9;
+  color: #FFFFFF;
 }
 
 #mainNav .navbar-nav {
@@ -143,15 +143,17 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #e9e9e9;
+  color: #FFFFFF;
   /*background-color: #e9e9e9;*/
 
   background-color: transparent;
+  border: 1px solid transparent;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #8e979d;
-  background-color: #7e003c;
+  color: #7e003c;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -160,8 +162,9 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #8e979d;
+  color: #FFFFFF;
   background-color: #7e003c;
+  border: 1px solid #7e003c;
 }
 
 #mainNav .navbar-toggler {
@@ -187,10 +190,12 @@ section h2 {
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #e9e9e9;
     background: #7e003c;
+    border: 1px solid #7e003c;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #e9e9e9;
     background: #7e003c;
+    border: 1px solid #7e003c;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -203,6 +208,7 @@ section h2 {
     font-size: 1.5em;
     color: #7e003c;
     background-color: #e9e9e9;
+    border: 1px solid #e9e9e9;
   }
 
   #mainNav.navbar-shrink .navbar-nav li.nav-item a.nav-link {
@@ -214,10 +220,17 @@ section h2 {
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link.active {
     color: #e9e9e9;
     background: #7e003c;
+    border: 1px solid #7e003c;
   }
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus {
     color: #e9e9e9;
     background: #7e003c;
+    border: 1px solid #7e003c;
+  }
+  #mainNav.navbar-shrink .navbar-nav li.nav-item a.nav-link:hover {
+    color: #7e003c;
+    background-color: #e9e9e9;
+    border: 1px solid #7e003c;
   }
 }
 

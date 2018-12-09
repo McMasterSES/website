@@ -1,0 +1,13 @@
+:root {
+    font-family: 'IBM Plex Sans', sans-serif;
+    --font-main: 'IBM Plex Sans', sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
+}
+
+.fontRegular {
+    font-family: var(--font-main) !important;
+}
+
+.fontMono {
+    font-family: var(--font-mono) !important;
+}

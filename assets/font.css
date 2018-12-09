@@ -1,7 +1,7 @@
 :root {
-    font-family: 'IBM Plex Sans', sans-serif;
-    --font-main: 'IBM Plex Sans', sans-serif;
-    --font-mono: 'IBM Plex Mono', monospace;
+    font-family: 'Raleway', sans-serif;
+    --font-main: 'Raleway', sans-serif;
+    --font-mono: 'PT Mono', monospace;
 }
 
 .fontRegular {

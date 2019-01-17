@@ -489,7 +489,7 @@ a:focus, a:hover, a:active {
   position: relative; }
 .images .img2 {
   position: absolute;
-  top: 80%;
+  top: 60%;
   right: -5%;
   max-width: 500px;
   -webkit-box-shadow: -17px 10px 34px -18px rgba(0, 0, 0, 0.5);

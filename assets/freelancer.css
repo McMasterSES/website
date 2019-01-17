@@ -145,6 +145,7 @@ section h2 {
 #mainNav .navbar-nav {
   margin-top: 1rem;
   letter-spacing: 0.0625rem;
+  background: #464646;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
@@ -191,6 +192,7 @@ section h2 {
   }
   #mainNav .navbar-nav {
     margin-top: 0;
+    background: none;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #e9e9e9;
@@ -524,6 +526,11 @@ a:focus, a:hover, a:active {
   left: -40%;
   z-index: 1;
   max-width: 500px;}
+@media (max-width: 991px) {
+  .mobileOnly {
+    display: none;
+  }
+}
 @media (max-width: 767px) {
   .images.right .img2 {
     position: relative;

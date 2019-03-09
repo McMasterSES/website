@@ -139,6 +139,11 @@ section h2 {
 
 }
 
+#us .row.people img{
+  max-height: 200px;
+  max-width: 200px;
+}
+
 #mainNav .navbar-brand {
   color: #FFFFFF;
 }
@@ -534,12 +539,26 @@ a:focus, a:hover, a:active {
     display: none;
   }
 }
+@media (min-width: 991px) {
+  .desktopOnly {
+    display: none;
+  }
+}
 @media (max-width: 767px) {
   .images.right .img2 {
     position: relative;
     left: inherit !important;
     top: inherit !important;
     max-width: 100%; } }
+
+
+.heads .card-title {
+  color: #7e003c !important;
+}
+
+.heads a {
+  color: #7e003c !important;
+}
 
 .bg-primary,.bg-primary-2,.bg-primary-3,.bg-primary-4  {
   background-image: url("../images/background/Kevin Patrick Robbins_06_07_2018 14_55_56 compressed_o_75.jpg") !important;

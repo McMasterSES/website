@@ -75,6 +75,10 @@ section .section-title {
     margin-bottom: 30px;
 }
 
+.indexJump {
+    z-index: 100;
+}
+
 .backside {
     position: absolute;
     top: 0;

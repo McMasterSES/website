@@ -72,4 +72,16 @@
     });
   });
 
+
+
 })(jQuery); // End of use strict
+
+function mouseOverFlip(e, elem) {
+  e.stopPropagation()
+  elem.parentElement.classList.add('indexJump');
+}
+
+function mouseOutFlip(e, elem) {
+    e.stopPropagation()
+    elem.parentElement.classList.remove('indexJump');
+}

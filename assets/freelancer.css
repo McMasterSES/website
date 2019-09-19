@@ -565,6 +565,7 @@ a:focus, a:hover, a:active {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: #a6a6a6 !important;
 }
 
 .bg-primary-2 {
